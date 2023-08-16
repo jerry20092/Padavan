@@ -13,10 +13,9 @@
 - 1.安装依赖
 - ```sudo apt update```
 - ```sudo apt-get -y install unzip libtool-bin curl cmake gperf gawk flex bison nano xxd fakeroot \
-        cpio git pip gettext automake autopoint texinfo build-essential help2man \
-        pkg-config zlib1g-dev libgmp3-dev libmpc-dev libmpfr-dev libncurses5-dev libltdl-dev wget
-        pip install docutils
-- 2.
+  cpio git pip gettext automake autopoint texinfo build-essential help2man \
+  pkg-config zlib1g-dev libgmp3-dev libmpc-dev libmpfr-dev libncurses5-dev libltdl-dev wget
+  pip install docutils```
 # README #
 
 Welcome to the rt-n56u project
