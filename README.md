@@ -12,10 +12,16 @@
 # 编译 #
 - 1.安装依赖
 - ```sudo apt update```
-- sudo apt-get -y install unzip libtool-bin curl cmake gperf gawk flex bison nano xxd fakeroot \
+- ```
+        sudo apt-get -y install unzip libtool-bin curl cmake gperf gawk flex bison nano xxd fakeroot \
         cpio git pip gettext automake autopoint texinfo build-essential help2man \
         pkg-config zlib1g-dev libgmp3-dev libmpc-dev libmpfr-dev libncurses5-dev libltdl-dev wget \
         pip install docutils
+- 2.克隆此仓库
+- 3.下载工具链
+- 转到```toolchain-mipsel```
+- 运行```sh dl_toolchain.sh```
+- （如果你所在的地区无法访问GitHub，那么请运行```sh dl_toolchain_cn.sh``` ,但无法访问Github通常无法通过编译）
 # README #
 
 Welcome to the rt-n56u project
