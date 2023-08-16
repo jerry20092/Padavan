@@ -22,6 +22,9 @@
 - 转到```toolchain-mipsel```
 - 运行```sh dl_toolchain.sh```
 - （如果你所在的地区无法访问GitHub，那么请运行```sh dl_toolchain_cn.sh``` ,但无法访问Github通常无法通过编译）
+- 4.转到```trunk```
+- 5.运行```fakeroot ./build_firmware_modify RM2100```
+- （如果你需要超频或添加插件，请转到```configs/templates/RM2100.config```,打开```CONFIG_FIRMWARE_CPU_900MHZ=y```将会默认超频至1100Mhz）
 # README #
 
 Welcome to the rt-n56u project
