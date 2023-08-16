@@ -2,6 +2,16 @@
 ![GitHub All Releases](https://img.shields.io/github/downloads/hanwckf/rt-n56u/total)
 [![release](https://img.shields.io/github/release/hanwckf/rt-n56u.svg)](https://github.com/hanwckf/rt-n56u/releases)
 
+# About #
+这是一个更好用的Padavan代码，主要针对小米/红米AC2100优化
+# 获取 #
+你有三种方式来获取此固件
+1.Release页面（通常不会更新，且可供选择的项目较少）
+2.使用在线Action编译
+3.自行编译（详见下方）
+# 编译 #
+1.安装依赖
+```sudo apt update```
 # README #
 
 Welcome to the rt-n56u project
