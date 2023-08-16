@@ -6,12 +6,17 @@
 这是一个更好用的Padavan代码，主要针对小米/红米AC2100优化
 # 获取 #
 你有三种方式来获取此固件
-1.Release页面（通常不会更新，且可供选择的项目较少）
-2.使用在线Action编译
-3.自行编译（详见下方）
+- 1.Release页面（通常不会更新，且可供选择的项目较少）
+- 2.使用在线Action编译
+- 3.自行编译（详见下方）
 # 编译 #
-1.安装依赖\n
-```sudo apt update```
+- 1.安装依赖
+- ```sudo apt update```
+- ```sudo apt-get -y install unzip libtool-bin curl cmake gperf gawk flex bison nano xxd fakeroot \
+        cpio git pip gettext automake autopoint texinfo build-essential help2man \
+        pkg-config zlib1g-dev libgmp3-dev libmpc-dev libmpfr-dev libncurses5-dev libltdl-dev wget
+        pip install docutils```
+- 2.
 # README #
 
 Welcome to the rt-n56u project
